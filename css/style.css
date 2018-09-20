@@ -1,0 +1,98 @@
+#top-info {
+    font-size: 50px;
+    color: white;
+    padding-top: 300px;
+}
+
+.btn {
+    border: solid black #00ccff !important;
+}
+
+.btn-top {
+    font-size: 25px !important;
+}
+
+
+.icon{
+    font-size: 50px;
+    color: #3067ad;
+}
+.font-col {
+    color: #3067ad;
+}
+.underline-title{
+    width: 150px;
+    border-bottom: solid #3067ad 5px;
+}
+.round-image{
+    border-radius: 50%;
+}
+.review-block{
+    background-color: #fff;
+}
+
+/* Sizing Css */
+.h-15{
+    height:15%;
+}
+.w-15{
+    width: 10%;
+}
+.icon-star{
+    color: yellow;
+}
+/* Background image */
+#top-bg-img {
+    background-image: url("https://lepetitjournal.com/sites/default/files/2017-09/home-office-336377_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: scroll;
+    font-size: 25px;
+    color: white !important;
+}
+#second-bg-img{
+    background-image: url("http://getwallpapers.com/wallpaper/full/9/d/0/24089.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: right top;
+    background-attachment: fixed;
+}
+/* Background color */
+
+.bground-primary{
+    background-color: #00ccff;
+}
+.bground-secoundary{
+    background-color: #fff;
+}
+/* Navbar option */
+@media (min-width: 990px) {
+    .navbar-expand-lg {
+        background: rgba(0,0,0,0.5) !important;
+    }
+}
+
+@media (max-width: 990px) {
+    .navbar-expand-lg {
+        background-color: #000 !important;
+        color: #fff;
+    }
+}
+
+/* Overide Css  */
+
+a:active {
+    color: red !important;
+}
+
+.navbar-brand {
+    font-size: 25px !important;
+    color: white;
+}
+
+.nav-link {
+    color: white !important;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+  }
